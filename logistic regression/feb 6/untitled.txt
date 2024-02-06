@@ -1,0 +1,36 @@
+Logistic regression:
+
+Binary Classification refers to predicting the output variable that is discrete in two classes.
+
+A few examples of Binary classification are Yes/No, Pass/Fail, Win/Lose, Cancerous/Non-cancerous, etc.
+
+Multinomial Logistic Regression: The output variable is discrete in three or more classes with no natural ordering.
+
+Food texture: Crunchy, Mushy, Crispy
+
+Hair colour: Blonde, Brown, Brunette, Red​
+
+Ordered Logistic Regression: Aka Ordinal regression model. The output variable is discrete in three or more classes with the ordering of the levels.
+
+Customer Rating: extremely dislike, dislike, neutral, like, extremely like
+
+Income level: low income, middle income, high income
+
+Advantages of logistic regression
+Logistic regression is much easier to implement than other methods, especially in the context of machine learning.
+Logistic regression works well for cases where the dataset is linearly separable.
+
+Sigmoid Function:
+The sigmoid function is useful to map any predicted values of probabilities into another value between 0 and 1.
+
+Sigmoid function: σ(z) = 1/(1+e−z)
+
+
+
+
+
+Case 1: the predicted value for x1 is ≈0.2 which is less than the threshold, so x1 belongs to class 0.
+
+Case 2: the predicted value for the point x2 is ≈0.6 which is greater than the threshold, so x2 belongs to class 1.
+
+So far so good, yeah!

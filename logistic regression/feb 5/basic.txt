@@ -1,0 +1,9 @@
+Logistic regression is a supervised machine learning algorithm used for classification tasks.
+
+goal is to predict the probability that an instance belongs to a given class or not.
+that takes input as independent variables and produces a probability value between 0 and 1.
+
+Types
+Binomial: In binomial Logistic regression, there can be only two possible types of the dependent variables, such as 0 or 1, Pass or Fail, etc.
+Multinomial: In multinomial Logistic regression, there can be 3 or more possible unordered types of the dependent variable, such as “cat”, “dogs”, or “sheep”
+Ordinal: In ordinal Logistic regression, there can be 3 or more possible ordered types of dependent variables, such as “low”, “Medium”, or “High”.
